@@ -14,6 +14,7 @@
 		AB406C041B3BBFE400E01B57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB406C031B3BBFE400E01B57 /* Images.xcassets */; };
 		AB406C071B3BBFE400E01B57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB406C051B3BBFE400E01B57 /* LaunchScreen.xib */; };
 		AB406C131B3BBFE500E01B57 /* weekCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB406C121B3BBFE500E01B57 /* weekCalendarTests.m */; };
+		AB406C1F1B3BC06000E01B57 /* weekCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = AB406C1E1B3BC06000E01B57 /* weekCalendar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AB406C0C1B3BBFE500E01B57 /* weekCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weekCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB406C111B3BBFE500E01B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB406C121B3BBFE500E01B57 /* weekCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weekCalendarTests.m; sourceTree = "<group>"; };
+		AB406C1D1B3BC06000E01B57 /* weekCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weekCalendar.h; sourceTree = "<group>"; };
+		AB406C1E1B3BC06000E01B57 /* weekCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weekCalendar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		AB406BF51B3BBFE400E01B57 /* weekCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				AB406C1C1B3BC04100E01B57 /* weekCalendar */,
 				AB406BFA1B3BBFE400E01B57 /* AppDelegate.h */,
 				AB406BFB1B3BBFE400E01B57 /* AppDelegate.m */,
 				AB406BFD1B3BBFE400E01B57 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				AB406C111B3BBFE500E01B57 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB406C1C1B3BC04100E01B57 /* weekCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				AB406C1D1B3BC06000E01B57 /* weekCalendar.h */,
+				AB406C1E1B3BC06000E01B57 /* weekCalendar.m */,
+			);
+			name = weekCalendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				AB406BFF1B3BBFE400E01B57 /* ViewController.m in Sources */,
 				AB406BFC1B3BBFE400E01B57 /* AppDelegate.m in Sources */,
 				AB406BF91B3BBFE400E01B57 /* main.m in Sources */,
+				AB406C1F1B3BC06000E01B57 /* weekCalendar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
